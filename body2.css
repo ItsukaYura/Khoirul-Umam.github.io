@@ -1,0 +1,117 @@
+:root {
+    --primary-color: #76dde9;
+    --bg-color: #000000;
+
+}
+
+.text-blue {
+    color: var(--primary-color);
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    --bs-body-bg: var(--bg-color)
+}
+
+.container {
+    width: 100%;
+    margin: 10%;
+    justify-content: center;
+    padding: 15px;
+}
+
+.About {
+    padding-bottom: 5rem;
+    padding-right: 25rem;
+    padding-left: 25rem;
+    padding-top: 5rem;
+}
+
+header {
+    background-image: url(bg1.jpg);
+    width: auto;
+    height: auto;
+    display: block;
+    background-position-x: center;
+    background-position-y: 30%;
+    size-adjust: 200px;
+    background-size: auto;
+    padding-top: 50px;
+    min-height: 200px;
+    text-align: center;
+}
+
+h1 p {
+    margin: 0;
+    padding: 0;
+    font-size: 2.5em;
+}
+
+.foto {
+    background-image: url(profile.jpg);
+    background-size: 400px;
+    background-position-x: center;
+    background-position-y: 580px;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 15px solid #111a24;
+    box-shadow: 5px 7px 25px rgba(0, 0, 0, 0.5);
+}
+
+.proyek {
+    background: white;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.Kontak {
+    padding-top: 30rem;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    padding: 0 3%;
+    border: 1px solid #000000;
+    position: fixed;
+    top: 3%;
+    left: 0%;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+    z-index: 10;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skill-badge {
+    background-color: #76dde9;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+footer {
+    color: var(--bg-color);
+    text-align: center;
+    padding: 10px;
+}
+
+
+@media (max-width: 600px) {
+    .container {
+        width: 95%;
+    }
+}
