@@ -1,35 +1,10 @@
-:root {
-    --primary-color: #76dde9;
-    --bg-color: #000000;
-
-}
-
-.text-blue {
-    color: var(--primary-color);
-}
-body {
-    font-family: Arial, sans-serif;
+.body {
+    font-family: 'Arial', sans-serif;
     line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    --bs-body-bg: var(--bg-color)
+    background-color: #000000;
 }
 
-.container {
-    width: 100%;
-    margin: 10%;
-    justify-content: center;
-    padding: 15px;
-}
-
-.About {
-    padding-bottom: 5rem;
-    padding-right: 25rem;
-    padding-left: 25rem;
-    padding-top: 5rem;
-}
-
-header {
+.hero {
     background-image: url(bg1.jpg);
     width: auto;
     height: auto;
@@ -38,15 +13,17 @@ header {
     background-position-y: 30%;
     size-adjust: 200px;
     background-size: auto;
-    padding-top: 50px;
     min-height: 200px;
     text-align: center;
+    color: white;
 }
 
-h1 p {
-    margin: 0;
-    padding: 0;
-    font-size: 2.5em;
+h1, h4, a, li {
+    color: #76dde9;
+}
+
+.container {
+    color: #76dde9;
 }
 
 .foto {
@@ -56,62 +33,25 @@ h1 p {
     background-position-y: 580px;
     width: 300px;
     height: 300px;
-    margin: auto;
+    border-top: 500px;
+    margin: 20px auto;
     border-radius: 50%;
     overflow: hidden;
-    border: 15px solid #111a24;
-    box-shadow: 5px 7px 25px rgba(0, 0, 0, 0.5);
 }
 
-.proyek {
-    background: white;
-    margin: 20px 0;
-    padding: 20px;
-    border-radius: 5px;
+.badge {
+    padding: 10px 15px;
+    font-size: 1rem;
 }
 
-.Kontak {
-    padding-top: 30rem;
-}
-
-.navbar {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 100%;
-    height: 70px;
-    padding: 0 3%;
-    border: 1px solid #000000;
-    position: fixed;
-    top: 3%;
-    left: 0%;
-    background-color: rgba(0, 0, 0, 0.5);
-    backdrop-filter: blur(10px);
-    z-index: 10;
-}
-
-.skills {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-}
-
-.skill-badge {
-    background-color: #76dde9;
-    color: white;
-    padding: 5px 10px;
-    border-radius: 3px;
+.card-title {
+    font-weight: bold;
+    align-self: center;
 }
 
 footer {
-    color: var(--bg-color);
-    text-align: center;
-    padding: 10px;
-}
-
-
-@media (max-width: 600px) {
-    .container {
-        width: 95%;
-    }
+    background: #212529;
+    color: #76dde9;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
 }
