@@ -5,25 +5,19 @@
 }
 
 .hero {
-    background-image: url(bg1.jpg);
-    width: auto;
-    height: auto;
-    display: block;
-    background-position-x: center;
-    background-position-y: 30%;
+    background-color: #000000;
     size-adjust: 200px;
     background-size: auto;
     min-height: 200px;
     text-align: center;
-    color: white;
 }
 
 h1, h4, a, li {
-    color: #76dde9;
+    color: white;
 }
 
 .container {
-    color: #76dde9;
+    color: white;
 }
 
 .foto {
@@ -48,6 +42,7 @@ h1, h4, a, li {
     font-weight: bold;
     align-self: center;
 }
+
 
 footer {
     background: #212529;
